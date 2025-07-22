@@ -1,12 +1,79 @@
-<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>heading 1</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt totam veritatis recusandae fugit nostrum nam alias rerum velit, sint, culpa atque esse! Architecto nisi iusto cum ullam id consectetur ipsum.</p>
-</body>
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Apna College
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gradient-to-r from-white to-blue-50 min-h-screen">
+  <header class="flex items-center justify-between px-6 py-4">
+   <div class="flex items-center space-x-1">
+    <h1 class="font-extrabold text-2xl leading-none text-black">
+     APNA
+    </h1>
+    <h2 class="font-extrabold text-2xl leading-none text-[#fca311]">
+     COLLEGE
+    </h2>
+   </div>
+   <nav class="flex items-center space-x-6 text-black text-sm font-normal">
+    <a class="hover:underline" href="about.html">
+     Our Results
+    </a>
+    <a class="bg-[#5c6ac4] text-white font-semibold px-4 py-2 rounded-md" href="#">
+     New Sigma 8.0
+    </a>
+    <a class="hover:underline" href="#">
+     DSA Sheet
+    </a>
+    <div class="relative group">
+     <button aria-expanded="false" aria-haspopup="true" class="flex items-center space-x-1 hover:underline font-normal">
+      <span>
+       New Courses
+      </span>
+      <i class="fas fa-chevron-down text-xs">
+      </i>
+     </button>
+    </div>
+    <a class="hover:underline" href="#">
+     Log in
+    </a>
+    <a class="text-[#5c6ac4] font-semibold border border-[#5c6ac4] rounded-md px-4 py-2 hover:bg-[#5c6ac4] hover:text-white transition" href="#">
+     Sign up
+    </a>
+   </nav>
+  </header>
+  <main class="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-12 md:py-24 gap-8 md:gap-0">
+   <div class="max-w-xl">
+    <h2 class="text-3xl md:text-4xl font-semibold text-gray-900 leading-tight">
+     Learn &amp; become the
+    </h2>
+    <h3 class="text-3xl md:text-4xl font-semibold text-[#3b49db] leading-tight mt-1">
+     Top 1% software developer
+    </h3>
+    <div class="mt-8">
+     <button class="bg-[#3b49db] text-white font-semibold px-6 py-3 rounded-md hover:bg-[#2f3dbb] transition">
+      <span class="font-bold text-yellow-400">
+       Ultimate
+      </span>
+      Placement Solution
+      <i class="fas fa-chevron-right ml-2">
+      </i>
+     </button>
+    </div>
+   </div>
+   <div class="flex-shrink-0">
+    <img alt="Smiling woman with long black hair sitting in front of a laptop with a microphone in a blue lit studio" class="rounded-t-full rounded-b-full border-2 border-[#3b49db] object-cover w-80 h-80 md:w-[400px] md:h-[400px]" src="https://placehold.co/400x400/png?text=Smiling+woman+with+microphone+and+laptop+in+blue+light+studio"/>
+   </div>
+  </main>
+ </body>
 </html>
